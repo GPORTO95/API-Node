@@ -5,8 +5,14 @@ Projeto Open-Source para CRUD de produtos.
 ## Tecnologias implementadas:
 - Node JS
 - MongDB
-- JWT
+- Autenticação
+- Autorização
+- Envio de e-mail
 
 ## Arquitetura:
 - Repository
-- Segregação de responsabilidade
+- Rotas
+- Controllers
+- Models
+- Validações
+- Async/Await
