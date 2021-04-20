@@ -1,7 +1,7 @@
 'use strict';
 
-const mongosse = require('mongoose');
-const Schema = mongosse.Schema;
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
 
 const schema = new Schema({
     title: {
@@ -35,4 +35,4 @@ const schema = new Schema({
     }]
 });
 
-module.exports = mongosse.model('Product', schema);
+module.exports = mongoose.model('Product', schema);
