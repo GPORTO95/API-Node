@@ -1,6 +1,6 @@
 ## Projeto API Node JS
 
-Projeto Open-Source para CRUD de produtos.
+Projeto Open-Source para CRUD de pedidos/clientes e produtos
 
 ## Tecnologias implementadas:
 - Node JS
