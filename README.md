@@ -26,3 +26,13 @@ Projeto Open-Source para CRUD de produtos.
 - Build typescript - npm run build
 - Run project - npm start
 - Go to swagger page - localhost:3000/
+
+## Pacotes
+- npm intall debug --save
+- npm intall express --save
+- npm intall body-parser --save (Body)
+- npm install http --save (Requisição http)
+- npm instal mongoose --save (MongoDB)
+- npm install guid --save (Geração de GUID)
+- npm install md5 --save (Encrypt)
+

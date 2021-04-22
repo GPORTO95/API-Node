@@ -2,13 +2,11 @@
 
 const express = require('express');
 const router = express.Router();
-const controller = require('../controllers/customer-controller');
+const controller = require('../controllers/order-controller');
 
-//GET: /customers
+//GET: /orders 
 router.get('/', controller.get);
-//GET: /customers/:id
-router.get('/:id', controller.getById);
-//CREATE: /customers
+//CREATE: /orders
 router.post('/', controller.post);
 
 module.exports = router;

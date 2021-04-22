@@ -3,6 +3,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
+const config = require('./config');
 
 const app = express();
 const router = express.Router();
@@ -10,7 +11,7 @@ const router = express.Router();
 try {
     // Connect to the MongoDB cluster
      mongoose.connect(
-        'mongodb+srv://gabriel:gabriel@cluster0.tapvz.mongodb.net/node-store?retryWrites=true&w=majority',
+        config.connectionString,
       { useNewUrlParser: true, useUnifiedTopology: true },
       () => console.log(" Mongoose is connected")
     );
@@ -27,6 +28,7 @@ const Order = require('../src/models/order');
 const indexRoute = require('./routes/index-route');
 const productRoute = require('./routes/product-route');
 const customerRoute = require('./routes/customer-route');
+const orderRoute = require('./routes/order-route');
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -34,5 +36,6 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use('/', indexRoute);
 app.use('/products', productRoute);
 app.use('/customers', customerRoute);
+app.use('/orders', orderRoute);
 
 module.exports = app;
