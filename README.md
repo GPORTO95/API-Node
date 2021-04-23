@@ -15,7 +15,6 @@ Projeto Open-Source para CRUD de pedidos/clientes e produtos
 - Controllers
 - Models
 - Validações
-- Async/Await
 
 ## Requirements
 - Node.js v15+
