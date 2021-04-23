@@ -12,6 +12,14 @@ exports.getById = async(id) => {
     return res;
 }
 
+exports.authenticate= async(data) => {
+    var res = await Customer.findOne({
+        email: data.email,
+        password: data.password
+    });
+    return res;
+}
+
 exports.create = async(data) => {
     var customer = new Customer(data);
     await customer.save();

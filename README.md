@@ -35,4 +35,7 @@ Projeto Open-Source para CRUD de pedidos/clientes e produtos
 - npm instal mongoose --save (MongoDB)
 - npm install guid --save (Geração de GUID)
 - npm install md5 --save (Encrypt)
+- npm install sendgrid@2.0.0 --save (Envio de e-mail)
+- npm install azure-storage@2.1.0 --save
+- npm instal jsonwebtoken@7.4.0 --save
 

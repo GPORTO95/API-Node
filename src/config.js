@@ -3,6 +3,6 @@ global.EMAIL_TMPL = 'Olá, <strong>{0}</strong>, seja bem vindo à Node Store!';
 
 module.exports = {
     connectionString: 'mongodb+srv://gabriel:gabriel@cluster0.tapvz.mongodb.net/node-store?retryWrites=true&w=majority',
-    sendgridKey: 'TBD',
+    sendgridKey: 'minha chave',
     containerConnectionString: 'TBD'
 }

@@ -3,6 +3,7 @@
 const express = require('express');
 const router = express.Router();
 const controller = require('../controllers/product-controller');
+const authService = require('../services/auth-service');
 //GET: /products
 router.get('/', controller.get);
 //GET: /products
@@ -12,10 +13,10 @@ router.get('/:slug', controller.getBySlug);
 //GET: /products/:tag
 router.get('/tags/:tag', controller.getByTag);
 //CREATE: /products
-router.post('/', controller.post);
+router.post('/', authService.authorize, controller.post);
 //PUT: /products/:id
-router.put('/:id', controller.put);
+router.put('/:id', authService.authorize, controller.put);
 //DELETE: /products
-router.delete('/', controller.delete);
+router.delete('/', authService.authorize, controller.delete);
 
 module.exports = router;
