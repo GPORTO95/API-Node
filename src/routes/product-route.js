@@ -13,10 +13,10 @@ router.get('/:slug', controller.getBySlug);
 //GET: /products/:tag
 router.get('/tags/:tag', controller.getByTag);
 //CREATE: /products
-router.post('/', authService.authorize, controller.post);
+router.post('/', authService.isAdmin, controller.post);
 //PUT: /products/:id
-router.put('/:id', authService.authorize, controller.put);
+router.put('/:id', authService.isAdmin, controller.put);
 //DELETE: /products
-router.delete('/', authService.authorize, controller.delete);
+router.delete('/', authService.isAdmin, controller.delete);
 
 module.exports = router;
