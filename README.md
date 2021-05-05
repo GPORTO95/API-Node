@@ -16,7 +16,7 @@ Projeto Open-Source para CRUD de pedidos/clientes e produtos
 - Models
 - Validações
 
-## :floppy_disk: Requirements
+## :pushpin: Requirements
 - [Node.js v15+](https://nodejs.org/en/)
 - [MongoDB Atlas](https://docs.atlas.mongodb.com/)
 
