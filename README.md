@@ -2,31 +2,31 @@
 
 Projeto Open-Source para CRUD de pedidos/clientes e produtos
 
-## Tecnologias implementadas:
+## :woman_technologist: Tecnologias implementadas:
 - Node JS
 - MongDB
 - Autenticação
 - Autorização
 - Envio de e-mail
 
-## Arquitetura:
+## :building_construction: Arquitetura:
 - Repository
 - Rotas
 - Controllers
 - Models
 - Validações
 
-## Requirements
-- Node.js v15+
-- MongoDB Atlas
+## :floppy_disk: Requirements
+- [Node.js v15+](https://nodejs.org/en/)
+- [MongoDB Atlas](https://docs.atlas.mongodb.com/)
 
-## Running
+## :zap: Running
 - Install dependencies - npm i
 - Build typescript - npm run build
 - Run project - npm start
 - Go to swagger page - localhost:3000/
 
-## Pacotes
+## :card_index_dividers: Pacotes
 - npm intall debug --save
 - npm intall express --save
 - npm intall body-parser --save (Body)
