@@ -1,4 +1,4 @@
-## Projeto API Node JS
+## :computer: Projeto API Node JS
 
 Projeto Open-Source para CRUD de pedidos/clientes e produtos
 
