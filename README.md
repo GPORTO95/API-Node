@@ -2,7 +2,7 @@
 
 Projeto Open-Source para CRUD de pedidos/clientes e produtos
 
-## :woman_technologist: Tecnologias implementadas
+## :woman_technologist: Tecnologias
 - Node JS
 - MongDB
 - Autenticação
