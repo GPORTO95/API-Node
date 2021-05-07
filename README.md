@@ -26,7 +26,7 @@ Projeto Open-Source para CRUD de pedidos/clientes e produtos
 - Run project - npm start
 - Go to swagger page - localhost:3000/
 
-## :card_index_dividers: Pacotes
+## :package: Pacotes
 - npm intall debug --save
 - npm intall express --save
 - npm intall body-parser --save (Body)
